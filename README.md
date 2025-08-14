@@ -1,27 +1,39 @@
-# Chatty - A Real-Time Chat Application 🚀  [Live Link](https://chatty-frontend-ag8i.onrender.com)
+# Chatterly - A Real-Time Chat Application 🚀
 
-Chatty is an innovative chat application designed to provide seamless and secure communication. With real-time updates and privacy-focused features, it ensures a smooth and user-friendly experience.
+Chatterly is an innovative chat application designed to provide seamless and secure communication. With real-time messaging, privacy controls, and a modern interface, it ensures a smooth and user-friendly experience for all users.
 
 ---
 
 ## Features ✨
 
-- **Authentication**: Secure user authentication using JWT tokens.
-- **Real-Time Updates**: Instant messaging powered by Socket.IO.
-- **Live Typing Indicator**: See when the sender is typing.
-- **Live Typing Message**: View the live message being typed by the sender.
-- **Privacy Control**: Users can disable the visibility of the live typing feature for enhanced privacy.
-- **Rich Messaging**: Effortlessly send text and images.
-- **Customizable Profile**: Upload and manage profile pictures.
-- **Theming**: Customize the app's appearance by changing themes.
+- **Secure Authentication**: JWT-based user authentication system
+- **Real-Time Messaging**: Instant messaging powered by Socket.IO
+- **Live Typing Indicators**: See when other users are typing
+- **Live Message Preview**: View messages as they're being typed
+- **Privacy Controls**: Toggle visibility of typing indicators for enhanced privacy
+- **Rich Media Support**: Send both text messages and images seamlessly
+- **Profile Customization**: Upload and manage profile pictures
+- **Theme Customization**: Personalize your experience with multiple themes
+- **Responsive Design**: Works perfectly on desktop and mobile devices
 
 ---
 
 ## Tech Stack 🛠️
 
-- **Backend**: Node.js, Express.js  
-- **Real-Time Communication**: Socket.IO  
-- **Frontend**: React  
-- **Database**: MongoDB  
+**Frontend:**
 
----
+- React.js - Modern JavaScript library for building user interfaces
+- Vite - Fast build tool and development server
+- Tailwind CSS - Utility-first CSS framework
+- DaisyUI - Component library for Tailwind CSS
+- Zustand - Lightweight state management
+
+**Backend:**
+
+- Node.js - JavaScript runtime environment
+- Express.js - Web application framework
+- Socket.IO - Real-time bidirectional communication
+- MongoDB - NoSQL database
+- Mongoose - MongoDB object modeling
+- JWT - JSON Web Tokens for authentication
+- Cloudinary - Image upload and management
